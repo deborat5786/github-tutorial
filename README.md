@@ -6,6 +6,7 @@ _by Debora Tzunun_
 ## Git vs. GitHub
 * __Git__ is a version control or a used to stage to save codes.
 * __Github__ is a cloud where you store code.
+* Git and GitHub are commonly alike from each other. Both have to do with coding and connects with each other git. Contrastly,git is what code takes place and github is what code is store in 
 
 
 
@@ -22,12 +23,18 @@ _by Debora Tzunun_
 4. Go into first-repo, __*cd first-repo*__ click enter and type __*git init*__ , this will active git. 
 5. Lastly, git config --global user.name "First Last" and git config --global user.email "Your Email"
 
-You now completed the one-time setup of using github! 
+You just now completed the one-time setup of using github! 
 
 ---
 ## Repository Setup
 
-Now that you're all setup, You're ready for add code
+Now that you're all setup, You're ready to code!
+
+1. First of all, of course you will need to intialize git. BUT! first go to the file where you gonna start git. This is important because you may intailize git in the file you DON'T need to. In order to do this you need to make a new file by typing out __*touch README.md*__ .
+2. Before adding anything into this file, we need a new repository. So back to your git you need to click on the "+" sign on the top right corner of the github website. click on "new repository" . 
+3. Next, its asking for a repository name. THIS SHOULD MATCH THE NAME OF YOUR FILE FROM YOUR GIT! which in this case id "first-repo"
+4. Finally, you click "Create Repository" and FINISH! now you are ready to add and commit changes! 
+
 
 
 
@@ -41,6 +48,8 @@ As you work through it is always important to check status, add, commit, and pus
 4. Lastly we push by typing __git push -u origin master__
 
 This should be the workflow that every user need to memorize in order to add, commit, and push 
+
+
  
  
 
