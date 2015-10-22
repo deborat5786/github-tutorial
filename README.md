@@ -13,7 +13,7 @@ _by Debora Tzunun_
 ---
 ## Initial Setup
 1. In order to start git, you'll need to create a new [Github account](http://www.github.com). This website will be the cloud where all your code gets push into 
-2. After that, you'll need to create a SSH key. _this will store all the code into Github_ 
+2. **SSH Key:** After that, you'll need to create a SSH key. _this will store all the code into Github_ 
    * First, in order to do this you'll  tneed to click on your profile icon that is located on the right side hand corner of the website page of Github.com. 
    * When you clicked on your icon then, you should next click on the word "Settings"
    * Next, click on "SSH keys" on the left side menu.
