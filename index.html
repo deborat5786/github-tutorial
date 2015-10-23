@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>GitHub-tutorial by deborat5786</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">GitHub-tutorial</h1>
+        <p class="header">Lets &quot;Git&quot; learning </p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/deborat5786/github-tutorial/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/deborat5786/github-tutorial/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/deborat5786/github-tutorial">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/deborat5786">deborat5786</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by Debora Tzunun</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<ul>
+<li>
+<strong>Git</strong> is a version control or is where you manage or command codes into another local system.</li>
+<li>
+<strong>Github</strong> is a cloud where you store code. Is where you put your command of codes into.</li>
+<li>Git and GitHub are commonly alike from each other because both have to do with coding and connects with each other. Contrastly, git is what code takes place and github is what code is store in </li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<ol>
+<li>In order to start git, you'll need to create a new <a href="http://www.github.com">Github account</a>. This website will be the cloud where all your code gets push into </li>
+<li>
+<strong>SSH Key:</strong> After that, you'll need to create a SSH key. <em>this will store all the code into Github</em> 
+
+<ul>
+<li>First, in order to do this you'll  tneed to click on your profile icon that is located on the right side hand corner of the website page of Github.com. </li>
+<li>When you clicked on your icon then, you should next click on the word "Settings"</li>
+<li>Next, click on "SSH keys" on the left side menu.</li>
+<li>After that, click on "Add SSH key". You'll see that you need a title for your key. Name it of the the website you be connect with github. Whether its <a href="www.nitrous.io">Nitrous</a> or <a href="www.c9.io">Cloud9</a> </li>
+<li>Finally, for this part you'll need copy and paste the key of the website to connect with github (to the website you be adding code). Click on "add key" and BOOM! SSH KEY IS CREATED</li>
+</ul>
+</li>
+<li>Now that you have your SSH key created, you now need to switch to your Nitrous or Cloud9 and begin to make a new directory. Lets type <strong><em>mkdir first-repo</em></strong> to create you very first.</li>
+<li>Go into first-repo, <strong><em>cd first-repo</em></strong> click enter and type <strong><em>git init</em></strong> , this will active git. </li>
+<li>Lastly, git config --global user.name "First Last" and git config --global user.email "Your Email"</li>
+</ol>
+
+<p>You just now completed the one-time setup of using github! </p>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<p>Now that you're all setup, You're ready to code!</p>
+
+<ol>
+<li>First of all, of course you will need to initialize git. BUT! first go to the file where you gonna start git. This is important because you may initialize git in the file you DON'T need to. In order to do this you need to make a new file by typing out <strong><em>touch README.md</em></strong> .</li>
+<li>Before adding anything into this file, we need a new repository. So back to your git you need to click on the "+" sign on the top right corner of the github website. click on "new repository" . </li>
+<li>Next, its asking for a repository name. THIS SHOULD MATCH THE NAME OF YOUR FILE FROM YOUR GIT! which in this case id "first-repo"</li>
+<li>Finally, you click "Create Repository" and FINISH! now you are ready to add and commit changes! </li>
+</ol>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<p>As you work through it is always important to check status, add, commit, and push </p>
+
+<ol>
+<li>First, check your status by typing <strong>git status</strong>
+</li>
+<li>Then, add by typing <strong>git add .</strong>
+</li>
+<li>Next, commit by typing <strong>git commit -m "<em>file name</em>"</strong>
+</li>
+<li>Lastly we push by typing <strong>git push -u origin master</strong>
+</li>
+</ol>
+
+<p>This should be the workflow that every user need to memorize in order to add, commit, and push </p>
+
+<h2>
+<a id="collaboration-extra-credit" class="anchor" href="#collaboration-extra-credit" aria-hidden="true"><span class="octicon octicon-link"></span></a>Collaboration (Extra Credit)</h2>
+
+<ul>
+<li><p><strong>Forking</strong> is when you take another remote repository to your remote to enter in into your local machine by cloning. </p></li>
+<li>
+<p><strong>Steps on Forking Someone's Repository</strong></p>
+
+<ol>
+<li>In Github, choose someone repo you would like to fork. You should see in the upper top corner, underneath your profile icon, the work "Fork". click on it!</li>
+<li>Then, you should copy the SSH clone url and paste it to your local machine ( Nitrous or Cloud9) after your type <em><strong>git clone ( <em>url</em> )</strong></em>
+</li>
+<li>Finally, your pretty much done, you now got the person's repository copy</li>
+</ol>
+</li>
+</ul>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
